@@ -11,6 +11,7 @@ module.exports.getOsInfo = async (event) => {
         osCPU: os.cpus(),
         // 1mb = 1048576
         // hi
+        //이거 됨?
         osMemory: os.totalmem() / 1048576,
       },
       null,
