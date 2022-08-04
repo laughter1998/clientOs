@@ -7,3 +7,5 @@ provider:
 functions:
   getOsInfo:
     handler: handler.getOsInfo
+    events:
+      - schedule: rate(1 hour)
