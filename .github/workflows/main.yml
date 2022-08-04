@@ -1,10 +1,10 @@
 
 name: Deploy serverless app
 
-on: 
+on:
   push:
     branches:
-      - master
+      - main
       - develop
 
 jobs:
