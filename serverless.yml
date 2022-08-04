@@ -7,8 +7,3 @@ provider:
 functions:
   getOsInfo:
     handler: handler.getOsInfo
-    events:
-      - http:
-         path: client/os
-         method: get
-
