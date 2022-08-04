@@ -14,6 +14,7 @@ module.exports.getOsInfo = async (event) => {
         //이거 됨?
         // 왜 안됨?
         //55
+        //66
         osMemory: os.totalmem() / 1048576,
       },
       null,
