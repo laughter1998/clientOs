@@ -10,11 +10,7 @@ module.exports.getOsInfo = async (event) => {
         osPlatform: os.platform(),
         osCPU: os.cpus(),
         // 1mb = 1048576
-        // hi
-        //이거 됨?
-        // 왜 안됨?
-        //55
-        //66
+        // gateway 연결 지워질까?
         osMemory: os.totalmem() / 1048576,
       },
       null,
