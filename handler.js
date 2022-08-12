@@ -11,6 +11,7 @@ module.exports.getOsInfo = async (event) => {
         osCPU: os.cpus(),
         // 1mb = 1048576
         // gateway 연결 지워질까?
+        // 이거 됨?
         osMemory: os.totalmem() / 1048576,
       },
       null,
